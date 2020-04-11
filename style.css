@@ -1,0 +1,234 @@
+/*
+ Oh le beau commentaire !
+ */
+ 
+/* ########################## INTRODUCTION*/
+.intro
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+.fear
+{
+    color: red;
+}
+.center
+{
+	font-size: 2em;
+	font-family:"comic sans MS";
+	text-align:center;
+    text-shadow: 2px 2px 4px silver;
+}
+.centerbutton
+{
+	font-family:"comic sans MS";
+	font-size: 2em;
+	text-align:center;
+}
+/* ########################## INDEX*/
+
+h1
+{
+	font-size:2em;
+	font-weight: bold;
+	text-decoration: underline;
+	color:Black;
+	background-color:Blue;
+	z-index: 1;
+	position:fixed;
+	margin:-10px;
+	margin-top:-90px; /*si je laissais vide il se mettais au même niveau que la section */
+	margin-bottom:10px;
+	padding:15px;
+	width:100%;
+	text-align:center;
+}
+
+h2
+{
+	font-size:1.5em;
+	font-weight: bold;
+	text-decoration: underline;
+	color:white;
+}
+
+h3
+{
+	font-size:1.2em;
+	font-weight: bold;
+	text-decoration: underline;
+	color:white;
+}
+.index
+{
+	background-image: url("Propre.jpeg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header
+{
+	font-size:1.3em;
+	background-color: #2B2B2B; 
+	color: white; 
+	border: 3px black solid;
+	background-color: black;
+	text-align: justify;
+	padding:10px;
+	padding-top:0px;
+	margin-left:240px;
+	margin-bottom:10px;
+	max-height:200px;
+	overflow: auto;
+	margin-top:80px;
+}
+
+section
+{
+	float:right;
+	padding:15px;
+	position:absolute;
+	margin-right:0px;
+	left:220px;
+	right:0px;
+	top:320px;
+	/* border: 3px black solid;  */
+
+}
+
+nav
+{
+	z-index: 1;
+	position:fixed;
+	top:80px;
+	max-width:200px;
+	height:83%;
+	border: 3px black solid; 
+	box-shadow: 6px 6px 3px black;
+	border-radius: 10px;
+	padding:5px;
+	overflow: auto;
+	background-color:#9D9D9D;
+}
+
+footer
+{
+	position:absolute;
+	margin-right:0px;
+	left:240px;
+	right:0px;
+	top:1620px;
+	font-size:1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: grey;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	opacity:0.9;
+
+}
+
+
+.boite1
+{
+	font-size:1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: silver;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	height:826px; /* la taille des deux paragraphes sur le côté + leur marge extérieur + leur bordure */
+	max-width:48.5%;
+	min-width:400px;
+	float:left;
+	margin:10px;
+	opacity:0.9;
+}
+
+.boite2
+{
+	float:right;
+	font-size:1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: silver;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	max-width:48.5%;
+	min-width:20%;
+	height:400px;
+	width:45%;
+	margin:10px;
+	opacity:0.9;
+}
+
+.boite3
+{
+	float:right;
+	font-size:1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: silver;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	height:400px;
+	margin:10px;
+	opacity:0.9;
+}
+
+.boite4
+{
+	float:left;
+	font-size:1em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: grey;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	margin:10px;
+	margin-left:240px;
+	opacity:0.9;
+}
+/* ########################## Contact */
+.sousligne
+{
+	text-decoration: underline;
+}
+
+/* ########################## BOUTONS*/
+
+.bouton
+{
+	background-color:#9D9D9D;
+	font-family:"comic sans MS";
+	text-align:center;
+	border:10px Silver outset;
+	color:black;
+}
+
+.bouton:hover /*quand on passe dessus*/
+{
+	background-color:#9D9D9D;
+	font-family:"comic sans MS";
+	text-align:center;
+	border: 10px Silver outset;
+	color:white;
+	text-shadow: 2px 2px 4px white;
+}
+
+.bouton:active /*quand on passe dessus*/
+{
+	background-color:#9D9D9D;
+	font-family:"comic sans MS";
+	text-align:center;
+	border: 10px grey inset;
+	color:white;
+	text-shadow: 2px 2px 4px white;
+}
