@@ -34,8 +34,8 @@ h1
 	font-weight: bold;
 	text-decoration: underline;
 	color:Black;
-	background-color:Blue;
-	z-index: 1;
+	background-color:White;
+	z-index: 2;
 	position:fixed;
 	margin:-10px;
 	margin-top:-90px; /*si je laissais vide il se mettais au même niveau que la section */
@@ -43,6 +43,11 @@ h1
 	padding:15px;
 	width:100%;
 	text-align:center;
+	height:50px;
+	background-image: url("logo.jpeg");
+	background-attachment: fixed;
+	background-position: top-left;
+	background-repeat: no-repeat;
 }
 
 h2
@@ -196,6 +201,23 @@ footer
 	margin-left:240px;
 	opacity:0.9;
 }
+
+.boite5
+{
+	font-size:1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	background-color: silver;
+	box-shadow: 6px 6px 3px black;
+	overflow: auto;
+	height:1250px;
+	width:98%;
+	float:left;
+	margin:10px;
+	opacity:0.9;
+}
+
 /* ########################## Contact */
 .sousligne
 {
